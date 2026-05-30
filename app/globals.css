@@ -34,6 +34,8 @@
   --color-accent-subtle: var(--accent-subtle);
   --color-muted: var(--muted);
   --color-border: var(--border);
+  --font-sans: var(--font-geist-sans), sans-serif;
+  --font-mono: var(--font-geist-mono), monospace;
 }
 
 * {
@@ -43,6 +45,4 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
 }
