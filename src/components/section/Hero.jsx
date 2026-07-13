@@ -5,7 +5,7 @@ import Button from "../ui/Button"
 
 export default function Hero() {
   return (
-    <section className="relative overflow-hidden px-4 pt-16 pb-24 text-center md:pt-20">
+    <section className="relative overflow-hidden px-4 pt-16 pb-24 text-center md:pt-20" id="#">
       <div className=" mx-auto flex max-w-3xl flex-col items-center gap-8">
         <Badge color="yellow" withDot classname="shadow-[4px_4px_0px_var(--color-ink)]">
           AVAILABLE FOR NEW PROJECTS
