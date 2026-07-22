@@ -2,20 +2,24 @@
 
 import { motion } from "framer-motion";
 import Badge from "../ui/Badge";
-import { FaHtml5, FaCss3Alt } from "react-icons/fa";
-import { SiJavascript, SiPhp, SiLaravel, SiNextdotjs, SiTailwindcss, SiReact, SiFigma } from "react-icons/si";
+import { FaHtml5, FaCss3Alt, FaWordpress } from "react-icons/fa";
+import { SiJavascript, SiPhp, SiLaravel, SiNextdotjs, SiTailwindcss, SiReact, SiFigma, SiFramer, SiBootstrap, SiFi } from "react-icons/si";
 import { div } from "framer-motion/client";
 import { Icon } from "lucide-react";
 
 const skills = [
   {name: "HTML5", icon: FaHtml5, color: "text-orange-500", bg: "bg-orange-500/10"},
   { name: "CSS3", icon: FaCss3Alt, color: "text-blue", bg: "bg-blue/10" },
-  { name: "JavaScript", icon: SiJavascript, color: "text-yellow-600", bg: "bg-yellow/15" },
+  { name: "Bootstrap", icon: SiBootstrap, color: "text-purple", bg: "bg-purple/20" },
   { name: "Tailwind", icon: SiTailwindcss, color: "text-blue", bg: "bg-blue/10" },
-  { name: "React", icon: SiReact, color: "text-blue", bg: "bg-blue/15" },
+  { name: "JavaScript", icon: SiJavascript, color: "text-yellow-600", bg: "bg-yellow/15" },
   { name: "Next.js", icon: SiNextdotjs, color: "text-ink", bg: "bg-ink/5" },
+  { name: "React", icon: SiReact, color: "text-blue", bg: "bg-blue/15" },
+  { name: "Framer", icon: SiFramer, color: "text-ink", bg: "bg-ink/5" },
   { name: "PHP", icon: SiPhp, color: "text-purple", bg: "bg-purple/20" },
   { name: "Laravel", icon: SiLaravel, color: "text-pink", bg: "bg-pink/10" },
+  {name: "Figma", icon: SiFigma, color: "text-orange-500", bg: "bg-orange-500/10"},
+  { name: "Wordpress", icon: FaWordpress, color: "text-blue", bg: "bg-blue/15" },
 ]
 
 const fadeUp = {
